@@ -33,5 +33,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo "aa bb" > aa.txt
+          echo "This is new file" > bb.txt
           echo Add other actions to build,
           echo test, and deploy your project.
